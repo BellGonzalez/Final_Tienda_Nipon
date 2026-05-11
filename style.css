@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background:
+    linear-gradient(rgba(252, 251, 251, 0.6), rgba(250, 249, 249, 0.6)), url(img/manga.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+.logo{
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.navegacion-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navegacion-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navegacion-links a:hover{
+    color: crimson;
+    transform: scale(1.2);
+}
+
+
+.Fondo{
+    min-height: 70vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/akihabara.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.Fondo h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.Fondo p{
+    font-size: 22px;
+}
+
+section{
+    padding: 80px 20px;
+}
+
+section h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+
+.productos-contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.articulos{
+    background-color: white;
+    width: 280px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.articulos:hover{
+    transform: translateY(-5px);
+}
+
+.articulos img{
+    width: 100%;
+    height: 220px;
+    justify-content:center;
+    align-items: center;
+    object-position: top;
+    object-fit: cover;
+}
+
+.articulos h3{
+    text-align: center;
+}
+
+.articulos p{
+    padding: 0 15px 15px;
+    text-align: justify;
+}
+
+.articulos button{
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #111;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.reseñas-grid{
+    display: grid;
+    grid-template-columns:
+    repeat(auto-fit, minmax(250px,1fr));
+    gap: 20px;
+}
+
+.reseña-box{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+
+.Video{
+    text-align: center;
+}
+
+.Video iframe{
+    width: 80%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+
+#contacto{
+    background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url(img/monte.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#contacto p{
+    text-align: center;
+    padding: 5px
+}
+
+form{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea,
+select{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+input:reset{
+    cursor: pointer;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
+.checkbox{
+    display: flex;
+    gap: 10px;
+}
+
+form button{
+    padding: 10px;
+    border: none;
+    background-color: crimson;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: #111;
+    color:black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(250, 249, 249, 0.6)), url(img/manga.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+
+
+.redes{
+    display: flex;
+    justify-content:right;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.redes a{
+    color: black;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.redes a:hover{
+    color: crimson;
+    transform: scale(1.2);
+}
+.redes p{
+    text-align: up;
+
+}
+
+/* Responsive Celular*/
+@media(max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navegacion-links{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Fondo h1{
+        font-size: 45px;
+    }
+
+    .Fondo p{
+        font-size: 18px;
+    }
+
+    section h2{
+        font-size: 30px;
+    }
+
+    .video iframe{
+        width: 100%;
+        height: 250px;
+    }
+}

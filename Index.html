@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda Nipon | Japón a Argentina</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"> <i class="fa-solid fa-torii-gate"></i>
+                TIENDA NIPON
+            </div>
+            <ul class="navegacion-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="inicio" class="Fondo">
+
+            <h1>日本製品</h1>
+
+            <p> Productos exclusivos del mundo anime, manga y cultura japonesa.</p>
+
+        </section>
+
+        <section id="productos">
+
+            <h2>Productos Destacados</h2>
+            <div class="productos-contenedor">
+
+                <article class="articulos">
+                    <img src="IMG/figma_marin_my dress up darling.jpg" alt="Figura Marin">
+                    <h3>Figma Marin</h3>
+                    <p>
+                        Figura original de My Dress-Up Darling distribuida por Good Smile Company.
+                    </p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="articulos">
+                    <img src="IMG/dandandan_manga.jpg" alt="Manga Dandadan">
+                    <h3>Manga DAN DA DAN</h3>
+                    <p>
+                        Tomos originales importados directamente desde Japón.
+                    </p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="articulos">
+                    <img src="IMG/set_comida.jpg" alt="Ramen">
+                    <h3>Combo Ramen</h3>
+                    <p>
+                        Packs exclusivos de ramen y snacks japoneses.
+                    </p>
+                    <button>Comprar</button>
+                </article>
+
+                <article class="articulos">
+                    <img src="IMG/One_piece.jpg" alt="One Piece">
+                    <h3>Tomos One Piece</h3>
+                    <p>
+                        Colección completa disponible en japonés original.
+                    </p>
+                    <button>Comprar</button>
+                </article>
+            </div>
+        </section>
+
+        
+        <section id="reseñas">
+            <h2>¿Quiénes Somos?</h2>
+            <div class="reseñas-grid">
+                <div class="reseña-box">
+                    <h3>Nuestra Historia</h3>
+                    <p>Somos argentinos viviendo en Tokyo. Desde el año 2020 realizamos compras y envíos a Argentina.</p>
+                </div>
+
+                <div class="reseña-box">
+                    <h3>¿Cómo Trabajamos?</h3>
+                    <p>Publicamos productos directamente desde Japón y conectamos a los compradores con  nuestros mejores vendedores</p>
+                </div>
+
+                <div class="reseña-box">
+                    <h3>Ranking Mensual</h3>
+                    <p>Contamos con rankings y sorteos mensuales para los vendedores destacados</p>  </div>
+
+                <div class="reseña-box">
+                    <h3>Comunidad</h3>
+                    <p> Más de 100 argentinos forman parte de nuestra comunidad en la Ciudad de Tokyo.</p>
+                </div>
+
+            </div>
+        </section>
+
+        
+        <section class="Video">
+            <h2>Conocé las mejores tiendas</h2>
+            <iframe
+                width="560" height="315" src="https://www.youtube.com/embed/IM3B3nwrG7w"            title="YouTube video player"allowfullscreen>
+            </iframe>
+        </section>
+
+        
+        <section id="contacto">
+            <h2>Unite a la Comunidad</h2>
+            <p>Completá el formulario y nos pondremos en contacto con vos.</p>
+            <form action="https://formspree.io/f/xykbvzao" method="POST">
+                <input type="text" name="nombre_completo" placeholder="Escriba su nombre y apellido" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <input type="tel" name="Celular" placeholder="Celular">
+                <input type="url" name="Wed" id="wed" placeholder="Escriba aqui su wed o red social">
+
+                <select name="ciudad">
+                    <option value="">Seleccione el barrio en el cual vive</option>
+                    <option value="Chiyoda">Chiyoda</option>
+                    <option value="Chuo">Chuo</option>
+                    <option value="Shibuya">Shibuya</option>
+                    <option value="Ota">Ota</option>
+                    <option value="Setagaya">Setagaya</option>
+                    <option value="Shinjuku">Shinjuku</option>
+                    <option value="Akihabara">Akihabara</option>
+                    <option value="Adachi">Adachi</option>
+                    <option value="Katsushika">Katsushika</option>
+                    <option value="Edogawa">Edogawa</option>
+                    <option value="Minato">Minato</option>
+                </select>
+                <textarea name="mensaje" placeholder="Escribí tu mensaje" required>
+                </textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    Acepto términos y condiciones
+                </label>
+                <input type="reset" id="reset" value="Limpiar">
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="redes">
+        <a href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-discord"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <p>Escribenos a nuestras redes </p>
+    </div>
+        <p>&copy; Todos los derechos reservados 2026 - Tienda Nipon</p>
+    </footer>
+
+</body>
+</html>
