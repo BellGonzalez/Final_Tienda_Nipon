@@ -201,7 +201,7 @@ select{
     border: none;
     border-radius: 10px;
 }
-input:reset{
+#reset{
     cursor: pointer;
 }
 
@@ -256,11 +256,10 @@ footer{
     transform: scale(1.2);
 }
 .redes p{
-    text-align: up;
-
+    text-align: center;
 }
 
-/* Responsive Celular*/
+
 @media(max-width: 768px){
 
     nav{
