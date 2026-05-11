@@ -11,7 +11,7 @@ html{
 body{
     font-family: 'Poppins', sans-serif;
     background:
-    linear-gradient(rgba(252, 251, 251, 0.6), rgba(250, 249, 249, 0.6)), url(img/manga.jpg);
+    linear-gradient(rgba(252, 251, 251, 0.6), rgba(250, 249, 249, 0.6)), url(/img/manga.jpg);
     background-repeat: repeat-x;
     background-attachment: fixed;
 }
@@ -65,7 +65,7 @@ nav{
 .Fondo{
     min-height: 70vh;
     background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/akihabara.jpeg);
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(/img/akihabara.jpeg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -176,7 +176,7 @@ section h2{
 #contacto{
     background:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url(img/monte.jpg);
+    url(/img/monte.jpg);
     background-size: cover;
     color: white;
 }
@@ -232,7 +232,7 @@ footer{
     font-weight: bold;
     text-align: center;
     padding: 10px;
-    background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(250, 249, 249, 0.6)), url(img/manga.jpg);
+    background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(250, 249, 249, 0.6)), url(/img/manga.jpg);
     background-repeat: repeat;
     background-position: center;
 }
