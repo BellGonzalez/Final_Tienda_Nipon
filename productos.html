@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Productos | Tienda Nipon</title>
+
+        <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+        rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                <i class="fa-solid fa-torii-gate"></i>
+                TIENDA NIPON
+                </div>
+
+                <ul class="navegacion-links">
+                <li><a href="index.html"> Inicio </a></li>
+                <li><a href="productos.html"> Productos </a></li>
+                <li><a href="index.html#contacto"> Contacto </a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+        <section id="productos-tienda">
+            <h1>Productos Japoneses JULIO 2026</h1>
+
+            <ul id="lista-productos"></ul>
+        </section>
+
+        <section id="carrito">
+            <h2>🛒 Carrito de compras (<span id="cantidad-carrito"> 0 </span>)</h2>
+
+            <ul id="items-carrito"></ul>
+
+            <div class="detalle-total">
+            <p>
+                Subtotal:
+                <span id="subtotal-carrito"> $0 </span>
+            </p>
+
+            <p>
+                Envío:
+                <span> $50000 </span>
+            </p>
+
+            <h3>
+                Total:
+                <span id="total-carrito"> $0 </span>
+            </h3>
+            </div>
+
+            <div class="botones-carrito">
+            <button id="btn-vaciar">Vaciar carrito</button>
+
+            <button id="btn-pagar">Comprar</button>
+            </div>
+        </section>
+        </main>
+
+        <footer>
+        <div class="redes">
+            <a href="#">
+            <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#">
+            <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+
+            p>&copy; 2026 Tienda Nipon</p>
+            </footer>
+
+            <script src="js/script.js"></script>
+        </body>
+    </html>
