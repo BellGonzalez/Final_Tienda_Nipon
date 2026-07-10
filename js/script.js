@@ -27,25 +27,25 @@ let productos = [
     {
         nombre: "Figura Anime Coleccionable",
         precio: 200000,
-        imagen: "img/figma_nezukoKamado.JPG",
+        imagen: "img/figma_nezukoKamado.jpg",
         stock:1
     },
     {
         nombre: "Snacks Japoneses",
         precio: 16000,
-        imagen: "img/snack_box.JPG",
+        imagen: "img/snack_box.jpg",
         stock:15
     },
     {
         nombre: "Manga Jujutso Kaisen",
         precio: 60000,
-        imagen: "img/jjk_manga.JPG",
+        imagen: "img/jjk_manga.jpg",
         stock:5
     },
     {
         nombre: "Figma Jujutso Kaisen N°557 Satoru",
         precio: 150000,
-        imagen: "img/Jujutsu Kaisen figma No.557 Satoru Gojo.JPG",
+        imagen: "img/Jujutsu Kaisen figma No.557 Satoru Gojo.jpg",
         stock:3
     }
 
