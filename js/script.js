@@ -33,13 +33,13 @@ let productos = [
     {
         nombre: "Snacks Japoneses",
         precio: 16000,
-        imagen: "img/snack_box.jpg",
+        imagen: "img/snack_box.JPG",
         stock:15
     },
     {
         nombre: "Manga Jujutso Kaisen",
         precio: 60000,
-        imagen: "img/jjk_manga.jpg",
+        imagen: "img/jjk_manga.JPG",
         stock:5
     },
     {
